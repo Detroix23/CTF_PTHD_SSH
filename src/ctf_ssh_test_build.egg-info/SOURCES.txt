@@ -1,0 +1,11 @@
+client.cpython-311-x86_64-linux-gnu.so
+common.cpython-311-x86_64-linux-gnu.so
+poskaship_pb2.cpython-311-x86_64-linux-gnu.so
+poskaship_pb2_grpc.cpython-311-x86_64-linux-gnu.so
+pyproject.toml
+src/build1/__init__.py
+src/build1/test-client_v1.0.0.py
+src/ctf_ssh_test_build.egg-info/PKG-INFO
+src/ctf_ssh_test_build.egg-info/SOURCES.txt
+src/ctf_ssh_test_build.egg-info/dependency_links.txt
+src/ctf_ssh_test_build.egg-info/top_level.txt
