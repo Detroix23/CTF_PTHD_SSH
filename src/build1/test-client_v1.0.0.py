@@ -8,8 +8,8 @@ import logging
 import os
 import sys
 
-# import poskaship_pb2
 import grpc
+import poskaship_pb2
 
 from client import create_client_channel, PoskaShipStub
 from common import message_to_dict
@@ -37,6 +37,7 @@ def main():
     try:
         with create_client_channel(args.remote, tls=True) as cc:
             stub = PoskaShipStub(*cc)
+
             me = stub.Me()
             print('me = ', message_to_dict(me))
 
