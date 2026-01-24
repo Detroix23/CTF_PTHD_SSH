@@ -10,10 +10,10 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools]
 include-package-data = false
 ext-modules = [
-  {name = "poskaship", sources = ["poskaship_pb2.cpython-311-x86_64-linux-gnu.so"]},
-  {name = "grpc", sources = ["poskaship_pb2_grpc.cpython-311-x86_64-linux-gnu.so"]},
-  {name = "client", sources = ["client.cpython-311-x86_64-linux-gnu.so"]},
-  {name = "common", sources = ["common.cpython-311-x86_64-linux-gnu.so"]},
+  {name = "poskaship_pb2", sources = ["/lib/poskaship_pb2.cpython-311-x86_64-linux-gnu.so"]},
+  {name = "grpc", sources = ["/lib/poskaship_pb2_grpc.cpython-311-x86_64-linux-gnu.so"]},
+  {name = "client", sources = ["/lib/client.cpython-311-x86_64-linux-gnu.so"]},
+  {name = "common", sources = ["/lib/common.cpython-311-x86_64-linux-gnu.so"]},
 ]
 
 [tool.setuptools.packages.find]

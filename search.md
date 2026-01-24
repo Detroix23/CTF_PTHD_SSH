@@ -85,7 +85,16 @@ Message: Session
   Field: username (Type: 9)   
 ```
 
+We can Login:
+```python
+stub.Register(account)
+stub.Login(account)
+```
 
+With an admin client, we get:
+```python
+flag = stub.getFlag()
+```
 
 
 ### Client.
