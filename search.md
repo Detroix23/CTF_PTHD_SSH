@@ -95,22 +95,3 @@ With an admin client, we get:
 ```python
 flag = stub.getFlag()
 ```
-
-
-### Client.
-```python
-
-create_client_channel(
-	remote: str, 
-	tls: bool
-) -> (grpc._channel.Channel, client.AuthSession)
-
-
-PoskaShipStub.__init__(
-	channel: grpc._channel.Channel, 
-	auth: client.AuthSession
-)
-
-PoskaShipStub.Me() ??
-
-```
