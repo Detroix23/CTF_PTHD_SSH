@@ -1,8 +1,0 @@
-IADD:00000000:/client.cpython-311-x86_64-linux-gnu.so
-IDSET:/client.cpython-311-x86_64-linux-gnu.so:c0a8381d7b24580853897800
-IADD:00000001:/common.cpython-311-x86_64-linux-gnu.so
-IDSET:/common.cpython-311-x86_64-linux-gnu.so:c0a8381d7d14581182326300
-IADD:00000002:/poskaship_pb2.cpython-311-x86_64-linux-gnu.so
-IDSET:/poskaship_pb2.cpython-311-x86_64-linux-gnu.so:c0a8381d7d24581458505100
-IADD:00000003:/poskaship_pb2_grpc.cpython-311-x86_64-linux-gnu.so
-IDSET:/poskaship_pb2_grpc.cpython-311-x86_64-linux-gnu.so:c0a8381d7d34581678251500
